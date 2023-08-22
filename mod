@@ -1,5 +1,5 @@
 NAME=devpod
-VERSION=v0.0.1
+VERSION=v1.0.0
 MODULE=desktop
 DESCRIPTION="A tool used to create reproducible developer environments"
 HOMEPAGE="https://devpod.sh/"
