@@ -26,8 +26,9 @@ install() {
   esac
 
   case $arch in
-  arm64) ;;
+  arm64)
     arch="aarch64"
+    ;;
   amd64)
     arch="x64"
     ;;
@@ -38,7 +39,7 @@ install() {
   esac
 
   # files
-  local cache_file="$cache_dir/$DESKTOP_CORE_VERSION.zip"
+  local cache_file="$cache_dir/$DESKTOP_CORE_VERSION.dmg"
   # local source_bin_file="./$name"
 
   # prepare context
